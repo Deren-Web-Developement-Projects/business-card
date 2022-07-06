@@ -17,6 +17,7 @@
     align-items: center;
     background-color: #0d364b;
     border-radius: 25px;
+    width: 95%;
     max-width: 550px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -55,8 +56,9 @@
 #button-block {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-top: 20px;
-    background-color: #0d364b;
+    width: 95%;
 }
 
 #button-block a {
@@ -151,4 +153,31 @@
     height: 55px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    #button-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b1 {
+        margin-right: 0px;
+    }
+    
+    .b2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #footer {
+        height: 300px;
+    }
+
+    #footer-box {
+        flex-direction: column;
+        height: 300px;
+    }
 }
