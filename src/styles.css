@@ -59,6 +59,15 @@
     background-color: #0d364b;
 }
 
+#button-block a {
+    text-decoration: none;
+    color: black;
+}
+
+#button-block a:hover {
+    cursor: pointer;
+}
+
 .button {
     display: flex;
     flex-direction: row;
@@ -94,8 +103,6 @@
 #interest-block {
     margin-top: 25px;
 }
-
-
 
 #icons-block {
     margin-top: 25px;
